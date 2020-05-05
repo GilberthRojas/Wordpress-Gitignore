@@ -1,7 +1,7 @@
 #--------------------------------------------------
 # Wordpress project ignore for Git.
-# GilRojas
-# Version: 1.0.0
+# Author: GilRojas
+# Version: 1.0.1
 
 # Remove everything in the root directory.
 /*
