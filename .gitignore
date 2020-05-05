@@ -1,0 +1,28 @@
+#--------------------------------------------------
+# Wordpress project ignore for Git.
+# GilRojas
+# Version: 1.0.0
+
+# Remove everything in the root directory.
+/*
+
+# Except directories and .gitignore file.
+!wp-content/
+!.gitignore
+
+# Ignore all content, except plugins and themes.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore default Wordpress themes.
+wp-content/themes/twenty*/
+
+# Ignore by file extension.
+*.log
+*.sql
+*.sqlite
+
+# Ignore Node directories
+node_modules/
+#--------------------------------------------------
